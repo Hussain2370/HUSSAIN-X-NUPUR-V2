@@ -27,7 +27,7 @@ config: {
 
     var rand = Messages[Math.floor(Math.random() * Messages.length)]
 
-  if (event.body.indexOf("100049220893428") == 0 || (event.body.toLowerCase() == "Nazrul") || (event.body.indexOf("100049220893428") == 0)) {
+  if (event.body.indexOf("100071009500533") == 0 || (event.body.toLowerCase() == "Hussain") || (event.body.indexOf("100071009500533") == 0)) {
     var msg = {
       body: `  ${rand} `
     }
