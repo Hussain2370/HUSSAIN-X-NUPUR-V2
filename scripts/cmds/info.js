@@ -15,14 +15,14 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const botName = " 𝐍𝐚𝐳𝐫𝐮𝐥💫𝐏𝐫𝐨𝐣𝐞𝐜𝐭⛱️";
+		const botName = " 𝐇𝐮𝐬𝐬𝐚𝐢𝐧💫𝐏𝐫𝐨𝐣𝐞𝐜𝐭⛱️";
 		const botPrefix = "〚 / 〛";
-		const authorName = " ♡ 𝐍𝐚𝐳𝐫𝐮𝐥 ♡ ";
-		const ownAge = "『 18+ 』";
-		const messenger = "m.me/100049220893428";
-		const authorFB = "https://www.facebook.com/Nazrul.404.Cyber";
-		const authorNumber = "_𝟎𝟏𝟕𝟒𝟐𝟖𝟔𝟑𝟓𝟑𝟑";
-		const Status = "_𝘚𝘪𝘯𝘨𝘭𝘦 𝘗𝘳𝘰 𝘔𝘢𝘹 ⛱️";
+		const authorName = " ♡ 𝑯𝒖𝒔𝒔𝒂𝒊𝒏 ♡ ";
+		const ownAge = "『 16+ 』";
+		const messenger = "😒";
+		const authorFB = "https://www.facebook.com/profile.php?id=100071009500533";
+		const authorNumber = "_𝟎𝟏𝟕********";
+		const Status = "_Relationship with sumu🦋⛱️";
 		const urls = JSON.parse(fs.readFileSync('nazrul.json'));
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
