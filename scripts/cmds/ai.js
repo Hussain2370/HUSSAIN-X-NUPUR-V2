@@ -40,7 +40,7 @@ module.exports = {
       const loadingMessage = getLang("loading");
       const loadingReply = await message.reply(loadingMessage);
       
-      const response = await axios.get(`https://apis-x5.onrender.com/hercai?ask=${encodeURIComponent(prompt)}`);
+      const response = await axios.get(`https://x3-apis.onrender.com/hercai?ask=${encodeURIComponent(prompt)}`);
 
       if (response.status !== 200 || !response.data || !response.data.answer) {
         throw new Error('Invalid or missing response from API');
